@@ -1,4 +1,4 @@
-# CliPix::Image
+# CliPix
 
 A Ruby library to display and animate images in your terminal.
 
