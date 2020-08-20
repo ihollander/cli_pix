@@ -99,12 +99,12 @@ When creating an image, you can pass an options hash as a second argument. It ta
 
 ```rb
 {
-    autoscale: true,     # default: true. resize the image to fit the console window.
-    size: nil,           # default: nil. you can provide an array of width and height [50, 30] or a string "50x30" to resize the image
-    flip: false,          # default: false. if true, flip the image vertically
-    flop: false,          # default: false. if true, flip the image horizontally
-    mode: :color,        # default: :color. you can also use :ascii to display the image in ASCII mode.
-    preprocess: false    # default: false. if true, process all frames of the image before displaying. useful for animated gifs.
+autoscale:  true,         # default: true. resize the image to fit the console window.
+size:       nil,          # default: nil. you can provide an array of width and height [50, 30] or a string "50x30" to resize the image
+flip:        false,        # default: false. if true, flip the image vertically
+flop:        false,        # default: false. if true, flip the image horizontally
+mode:       :color,       # default: :color. you can also use :ascii to display the image in ASCII mode.
+preprocess: false         # default: false. if true, process all frames of the image before displaying. useful for animated gifs.
 }
 ```
 
