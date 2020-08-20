@@ -2,6 +2,8 @@
 
 A Ruby library to display and animate images in your terminal.
 
+![surprised-pikachu](screenshots/pika.png)
+
 ## Requirements
 
 This library uses the MiniMagick gem, which requires ImageMagick or GraphicsMagick to be installed on your system.
